@@ -5,7 +5,7 @@ import { BsPlus } from 'react-icons/bs';
 import { MdDelete } from 'react-icons/md';
 import { TiDeleteOutline } from 'react-icons/ti';
 import { TbEdit } from 'react-icons/tb';
-//import { signUpSchema } from '../../Schemas';
+import { signUpSchema } from '../../schemas';
 import { useDispatch } from 'react-redux'
 import { createGroup, } from '../../Redux/Actions/index';
 import { ToastContainer, toast } from 'react-toastify';
@@ -58,7 +58,7 @@ const CreateFlashCards = () => {
       }}
 
         // Adding validation 
-        // validationSchema={signUpSchema}
+         validationSchema={signUpSchema}
         // created a onSubmit function
         onSubmit={(values, { resetForm }) => {
           // reset form on submit of formt
