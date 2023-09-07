@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+Flashcard Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</h1>
+# AlmaBetter-Flashcard-Generator
 
-## Available Scripts
+This assignment is the frontend Capstone project assigned by Almabetter, titled the "Flashcard Generator.
 
-In the project directory, you can run:
+## Deployment
 
-### `npm start`
+[Click Here](https://flashcardgenerator-alma.netlify.app/) to see my flashcard generator website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Run Locally
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install dependencies
 
-### `npm test`
+```bash
+  npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Start the server
 
-### `npm run build`
+```bash
+  npm run start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Authors
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [@Mohd Saqib](https://www.linkedin.com/in/mohd-saqib0077)
+(https://github.com/static-saqib)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [@Pranav Shinde](https://www.linkedin.com/in/pranav-shinde-94b031203/)
+(https://github.com/pranavshinde96)
 
-### `npm run eject`
+- [@Pooja Vishwakarma](https://www.linkedin.com/in/poojaVishwakarma)
+(https://github.com/PoojaVishwakarm)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [@Abhimanyu ](https://www.linkedin.com/in/abhimanyu086)
+(https://github.com/abhimanyu086)
+- 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tech Stack
+- React js( React Router ),
+- Redux, React-Redux,
+- TailwindCSS,
+- React-icons,
+- React Formik & Yup,
+- React-toastify
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## About The Project (Flashcard )
+This project is created with mainly React js , In this project mainly we have three pages.
+```bash
+1) create Flashcard page 
+2) My Flashcard page 
+3) Flashcard Details page
+```
+- Create fashCard page: In this page we used a Formik for creating input boxes, yap for validation and a switch to toggle between light mode to dark mode.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- My Flashcard page: In this page you can see your all flashcards 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- FlashcardDetails page : In this page you can see your flashcards details and you can also share or print your page 
 
-### Code Splitting
+## How To Use
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1) Open flashcard generator [Click Here](https://flashcardgenerator-alma.netlify.app/).
 
-### Analyzing the Bundle Size
+2) Fill up all the input boxes without any Errors and click on "Create" button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3) For the viewing recently created flashcards click on "My flashcard" link this will show all flashcard you created recently.
 
-### Making a Progressive Web App
+4) For the Viewing Details of flashcard click on "view card" button it will redirect you to the flashcard details page where you take a look of your flashcard details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Features
 
-### Advanced Configuration
+- Add More Input Box
+- Delete Input Box
+- Edit Input box
+- Upload Image
+- View cards
+- Share
+- Social Media Button
+- Back Button
+- Close button for closing share page
+- See All (Button)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Skills
+- React Js
+- Html
+- Css
+- Javascript
